@@ -1,2 +1,1 @@
--Reddit OCR Search-
-Let's you search for images with texts
+I would appreciate any help to make this into an android application
