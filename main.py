@@ -8,7 +8,7 @@ from fuzzywuzzy import fuzz
 reddit = praw.Reddit(Auth)
 
 sub_input = input("subreddit: ") #Which sub to search 
-post_input = input("post: ") #What was written on the image
+post_input = input("post: ") #What was written on the image (Doesn't need to be %100 accurate)
 
 sub = reddit.subreddit(sub_input)
 
