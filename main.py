@@ -12,7 +12,7 @@ post_input = input("post: ") #What was written on the image (Doesn't need to be 
 
 sub = reddit.subreddit(sub_input)
 
-hot_sub = sub.hot(limit = 1000) #I always scroll in hot lol
+hot_sub = sub.hot(limit = 1000) #I always scroll in hot
 
 imgs = [] #List for storing reddit image urls
 results = [] #List for the images that are matching with the post_input
